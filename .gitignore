@@ -1,0 +1,42 @@
+# Entornos y dependencias
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Builds y caches
+dist/
+dist-ssr/
+.vite/
+.pytest_cache/
+.mypy_cache/
+
+# Configuracion local / secretos
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs y temporales
+*.log
+*.tmp
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Archivos de credenciales generados para pruebas locales
+credenciales_*.csv
+
+# Artefactos generados / respaldos locales
+**/backups/
+**/_flujo_err.txt
+**/_uvicorn_run.log
+
+# Carpetas fuera del alcance solicitado
+prueba-npm/
+web_bd_core_financiero_andino_postgresql-main/
